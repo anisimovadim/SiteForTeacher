@@ -372,7 +372,7 @@ footer .content div{
     height: 526px;
     border-radius: 50%;
     border: 17px solid #FFFFFF;
-    background-image: url("/assets/img/img-teacher.png");
+    background-image: url("../img/img-teacher.png");
     background-position: center;
     background-position-y: 0;
     background-size: 100%;

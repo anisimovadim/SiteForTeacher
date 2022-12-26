@@ -12,7 +12,7 @@ body::-webkit-scrollbar{
     width: 0;
 }
 .body-main{
-    background-image: url("/assets/img/bg.jpg");
+    background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -96,13 +96,13 @@ summary {
     border-radius: 10px;
     width: 50px;
     height: 50px;
-    background-image: url("/assets/img/arrowLeft.svg");
+    background-image: url("../img/arrowLeft.svg");
     background-position: center;
     background-repeat: no-repeat;
     transition: .6s all;
 }
 .open_btn{
-    background-image: url("/assets/img/arrowDown.svg");
+    background-image: url("../img/arrowDown.svg");
     background-position: center;
     background-repeat: no-repeat;
     transition: .6s all;
@@ -410,7 +410,7 @@ footer .content div{
         width: 90%;
     }
     .body-main {
-        background-image: url(/assets/img/bg.jpg);
+        background-image: url(../img/bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

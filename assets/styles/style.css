@@ -423,8 +423,38 @@ footer .content div{
         margin: auto;
         display: flex;
     }
+    .ava-teach {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 17px solid #FFFFFF;
+        background-image: url(../img/img-teacher.png);
+        background-position: center;
+        background-position-y: 0;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        left: 57%;
+        top: 341px;
+        z-index: 1;
+    }
+    .grid-content div p {
+        font-weight: 400;
+        font-size: 28px;
+        color: #424242;
+    }
+    .grid-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 46px 58px;
+        height: auto;
+        gap: 60px;
+    }
+    .about-work {
+        text-align: left;
+    }
 }
-@media screen and (max-width: 880px){
+@media screen and (max-width: 996px){
     .flex-block-info-teacher{
         flex-direction: column;
     }
@@ -519,16 +549,17 @@ footer .content div{
         gap: 10%;
         right: 0;
         top: 0;
-        animation: lets 1s;
-        transition: .6s;
+        animation: haha 1s;
+        transition: .6s all;
         font-size: 40px;
-        padding: 0 40px;
+        width: 400px;
         height: 100vh;
+        padding: 0 40px;
     }
 
-    @keyframes lets {
-        0%   {right: -1000px;}
-        100% {right: 0;}
+    @keyframes haha {
+        0%   {width: 0; opacity: 0}
+        100% {width: 400px; opacity: 1}
     }
     .nav a {
         color: white;
@@ -542,4 +573,60 @@ footer .content div{
         color: #424242;
         align-items: center;
     }
+    .name {
+        color: #835020;
+        font-weight: 400;
+        font-size: 48px;
+    }
+    .locate-dolgnost{
+        font-size: 22px;
+    }
+    .flex-block-info-teacher .txt-block .title {
+        font-weight: 300;
+        font-size: 35px;
+        line-height: 104.52%;
+    }
+    .block-info-txt ul li {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 39px;
+        color: #000000;
+    }
+    .block-info-txt p {
+        font-weight: 600;
+        font-size: 31px;
+        line-height: 40px;
+        color: #FFFFFF;
+        background-color: #835020;
+        padding: 12px 23px;
+        border-radius: 10px;
+        margin: 42px 0;
+    }
+    .flex-block-info-teacher .txt-block h1 {
+        font-weight: 600;
+        font-size: 62px;
+        line-height: 79.52%;
+        margin-top: 65px;
+        color: #835020;
+    }
+    footer div p {
+        font-weight: 300;
+        font-size: 34px;
+        line-height: 100%;
+    }
+    .txt-block a {
+        font-weight: 600;
+        font-size: 34.2788px;
+        line-height: 21px;
+        color: #FFFFFF;
+        background-color: #835020;
+        padding: 10px 40px;
+        border-radius: 10px;
+        margin-top: 0;
+        width: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
 }
